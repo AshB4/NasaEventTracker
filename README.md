@@ -1,66 +1,64 @@
 🚀 NASA Event Tracker
-Real-time insights into Earth's natural events, powered by NASA's EONET API.
+Real-time global insights into wildfires, storms, and more — powered by NASA's EONET API.
 
-🌐 Overview
-NASA Event Tracker is a web application that visualizes natural events such as wildfires, storms, and volcanic activities on an interactive map. Leveraging NASA's EONET API, this tool provides users with up-to-date information on significant environmental occurrences worldwide.
+🌍 Overview
+NASA Event Tracker is a web application that visualizes natural events like wildfires, storms, and volcanic activity on an interactive map. Leveraging data from NASA’s EONET API, the app provides timely, reliable information about environmental changes affecting our planet.
 
 🛠️ Features
-Interactive Map Interface: Visual representation of natural events with intuitive navigation.
+Interactive Map Interface: View global natural events in real-time with intuitive map navigation.
 
-Event Filtering: Toggle between different event types (e.g., wildfires, storms, volcanoes) for focused insights.
+Event Filtering: Toggle by event type (wildfires, storms, volcanoes) to customize your view.
 
-Detailed Event Information: Click on event markers to access comprehensive details, including descriptions and sources.
+Detailed Insights: Click markers for descriptions, event sources, and more.
 
-Responsive Design: Optimized for various devices, ensuring accessibility on desktops, tablets, and smartphones.
+Responsive Design: Fully functional across desktop, tablet, and mobile devices.
 
 🧰 Tech Stack
 Frontend: React.js
 Mapping: Google Maps API
 Data Fetching: Axios
 Styling: CSS3
+
 Data Source: NASA EONET API
 
 🚀 Getting Started
-Clone the Repository:
+Clone the Repository
 
 bash
-git clone https://github.com/AshB4/NasaEventTracker.git
-cd NasaEventTracker
-Install Dependencies:
+git clone https://github.com/AshB4/NasaEventTracker.git  
+cd NasaEventTracker  
+Install Dependencies
 
 bash
-npm install
+npm install  
+Set Up API Keys
 
-Obtain API Keys:
+NASA EONET: No key required.
 
-NASA EONET API: No key required.
+Google Maps API: Get a key from Google Cloud Console.
 
-Google Maps API: Obtain a key from Google Cloud Console.
-
-Configure Environment Variables:
-
-Create a .env file in the root directory and add your Google Maps API key:
+Configure Environment Variables
+Create a .env file in the root directory:
 
 env
-REACT_APP_GOOGLE_MAPS_API_KEY=your_google_maps_api_key
-Run the Application:
+REACT_APP_GOOGLE_MAPS_API_KEY=your_google_maps_api_key  
+Run the Application
 
-npm start
-The application will be available at http://localhost:3000.
+bash
+npm start  
+The app will be live at http://localhost:3000.
 
 📌 Project Status
-The NASA Event Tracker is a work in progress. Upcoming enhancements include:
-
-Enhanced Filtering: Allow users to filter events by date and severity.
-
-User Notifications: Implement alerts for new events in selected regions.
-
-Performance Optimization: Improve loading times and responsiveness.
+This project is a work in progress. 
+Upcoming features include:
+Date & Severity Filters
+Regional Event Notifications
+Performance Enhancements
 
 📄 License
-This project is licensed under the MIT License.
+MIT License
 
-🤝 Acknowledgements
+🙏 Acknowledgements
 NASA EONET API
-Google Maps Platform
 
+Google Maps Platform
